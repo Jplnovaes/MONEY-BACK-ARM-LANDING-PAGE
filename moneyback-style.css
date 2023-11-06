@@ -1,0 +1,632 @@
+
+/* Reset browser defaults */
+@media (min-width: 1300px) {
+    body, html, img {
+    padding: 0;
+    max-width: 100%;
+    height: auto;
+   }
+   
+   /* Fit image in the container */
+   img {
+    width: 100%;
+    height: auto;
+   }
+   .txtimage{
+    position: absolute;
+    top: 3%;
+    left: 2%;
+    padding: 10px;
+   }
+   
+   /* Adjust the container's height */
+   .painel {
+    position: relative;
+    width: 100%;
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+   }
+   
+   /* Additional rules for limiting the image's height */
+   .painel > img {
+    position: static;
+    max-height: 930px;
+   }
+   .txtimage > h1{
+    font-size: 83px;
+    font-weight: lighter;
+   }
+   .txtimage > h2{
+    font-size: 55px;
+    text-transform: uppercase;
+    font-family: tahoma;
+    font-weight: bold;
+    line-height: 1.1;
+   }
+   .txtimage > h3{
+    font-size: 40px;
+    line-height: 1.1;
+    letter-spacing: 2.5px;
+    font-style: italic;
+    font-weight: normal;
+ 
+   
+   }
+   .painel > p {
+    width: auto;
+    position: absolute;
+    bottom: 0;
+    left: 6%;
+    padding: 5px;
+    font-size: 12px;
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+   }
+   .produtos{
+    background-color:  #dcd0d2;
+    padding: 4%;
+ 
+   }
+   .txt{
+    font-size: 35px;
+    color:  #3f3f3f;
+    font-style: italic;
+    font-weight: normal;
+    }
+.txt2{
+    font-size: 35px;
+    font-style: italic;
+    font-weight: normal;
+    color: #3f3f3f;
+}
+.imagens img{
+    margin-top: 10%;
+     width: 50%;
+}
+.imagens > .col > h3{
+    font-style: italic;
+    font-weight: normal;
+    color: #3f3f3f;
+}
+.imagens > .col > h4{
+    font-style: italic;
+    font-weight: normal;
+    font-size: 20px;
+    color: #3f3f3f;
+}
+form{
+    margin-top: 7%;
+}
+.form-group {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.form-group input, .form-group textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.form-group textarea {
+    resize: vertical;
+}
+
+.form-group > label{
+    display: block;
+    margin-bottom: 5px;
+    font-size: 21px;
+    font-style: italic;
+    font-weight: normal;
+    color: #3f3f3f;
+}
+.txt3{
+    font-size: 23px;
+    font-style: italic;
+    font-weight: normal;
+    color: #3f3f3f;
+
+}
+.txt3 > a {
+    color: black;
+    font-style: italic;
+    font-weight: normal;
+}
+.form-group > .btn{
+    background-color: #3f3f3f;
+    width: 150px;
+    padding: 10px;
+    margin: auto;
+    font-size: 20px;
+    color: aliceblue;
+}
+.termos{
+    display: grid;
+    justify-content: center;
+}
+.termos > label{
+    font-size: 15px;
+    font-weight: bold;
+}
+}
+@media (min-width: 1060px) and (max-width: 1300px) {
+    body, html, img {
+        padding: 0;
+        max-width: 100%;
+        height: auto;
+       }
+       
+       /* Fit image in the container */
+       img {
+        width: 100%;
+        height: auto;
+       }
+       .txtimage{
+        position: absolute;
+        top: 3%;
+        left: 2%;
+        padding: 10px;
+       }
+       
+       /* Adjust the container's height */
+       .painel {
+        position: relative;
+        width: 100%;
+        display: inline-block;
+        align-items: center;
+        justify-content: center;
+       }
+       
+       /* Additional rules for limiting the image's height */
+       .painel > img {
+        position: static;
+        max-height: 930px;
+       }
+       .txtimage > h1{
+        font-size: 73px;
+        font-weight: lighter;
+       }
+       .txtimage > h2{
+        font-size: 45px;
+        text-transform: uppercase;
+        font-family: tahoma;
+        font-weight: bold;
+        line-height: 1.1;
+       }
+       .txtimage > h3{
+        font-size: 30px;
+        line-height: 1.1;
+        letter-spacing: 2.5px;
+        font-style: italic;
+        font-weight: normal;
+     
+       
+       }
+       .painel > p {
+        width: auto;
+        position: absolute;
+        bottom: 0;
+        left: 6%;
+        padding: 5px;
+        font-size: 12px;
+    
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+       }
+       .produtos{
+        background-color:  #dcd0d2;
+        padding: 4%;
+     
+       }
+       .txt{
+        font-size: 30px;
+        color:  #3f3f3f;
+        font-style: italic;
+        font-weight: normal;
+        }
+    .txt2{
+        font-size: 30px;
+        font-style: italic;
+        font-weight: normal;
+        color: #3f3f3f;
+    }
+    .imagens img{
+        margin-top: 10%;
+         width: 50%;
+    }
+    .imagens > .col > h3{
+        font-style: italic;
+        font-weight: normal;
+        color: #3f3f3f;
+    }
+    .imagens > .col > h4{
+        font-style: italic;
+        font-weight: normal;
+        font-size: 20px;
+        color: #3f3f3f;
+    }
+    form{
+        margin-top: 7%;
+    }
+    .form-group {
+        margin-bottom: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    
+    .form-group input, .form-group textarea {
+        width: 100%;
+        padding: 8px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+    }
+    
+    .form-group textarea {
+        resize: vertical;
+    }
+    
+    .form-group > label{
+        display: block;
+        margin-bottom: 5px;
+        font-size: 21px;
+        font-style: italic;
+        font-weight: normal;
+        color: #3f3f3f;
+    }
+    .txt3{
+        font-size: 20px;
+        font-style: italic;
+        font-weight: normal;
+        color: #3f3f3f;
+    
+    }
+    .txt3 > a {
+        color: black;
+        font-style: italic;
+        font-weight: normal;
+    }
+    .form-group > .btn{
+        background-color: #3f3f3f;
+        width: 150px;
+        padding: 10px;
+        margin: auto;
+        font-size: 20px;
+        color: aliceblue;
+    }
+    .termos{
+        display: grid;
+        justify-content: center;
+    }
+    .termos > label{
+        font-size: 15px;
+        font-weight: bold;
+    }
+    
+
+}
+
+/* Estilos para notebooks e telas médias */
+@media (min-width: 765px) and (max-width: 1060px) {
+    body, html, img {
+        padding: 0;
+        max-width: 100%;
+        height: auto;
+       }
+       
+       /* Fit image in the container */
+       img {
+        width: 100%;
+        height: auto;
+       }
+       .txtimage{
+        position: absolute;
+        top: 3%;
+        left: 2%;
+        padding: 10px;
+       }
+       
+       /* Adjust the container's height */
+       .painel {
+        position: relative;
+        width: 100%;
+        display: inline-block;
+        align-items: center;
+        justify-content: center;
+       }
+       
+       /* Additional rules for limiting the image's height */
+       .painel > img {
+        position: static;
+        max-height: 930px;
+       }
+       .txtimage > h1{
+        font-size: 63px;
+        font-weight: lighter;
+       }
+       .txtimage > h2{
+        font-size: 40px;
+        text-transform: uppercase;
+        font-family: tahoma;
+        font-weight: bold;
+        line-height: 1.1;
+       }
+       .txtimage > h3{
+        font-size: 25px;
+        line-height: 1.1;
+        letter-spacing: 2.5px;
+        font-style: italic;
+        font-weight: normal;
+     
+       
+       }
+       .painel > p {
+        width: auto;
+        position: absolute;
+        bottom: 0;
+        left: 6%;
+        padding: 5px;
+        font-size: 12px;
+    
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+       }
+       .produtos{
+        background-color:  #dcd0d2;
+        padding: 4%;
+     
+       }
+       .txt{
+        font-size: 25px;
+        color:  #3f3f3f;
+        font-style: italic;
+        font-weight: normal;
+        }
+    .txt2{
+        font-size: 25px;
+        font-style: italic;
+        font-weight: normal;
+        color: #3f3f3f;
+    }
+    .imagens img{
+        margin-top: 10%;
+         width: 50%;
+    }
+    .imagens > .col > h3{
+        font-style: italic;
+        font-weight: normal;
+        color: #3f3f3f;
+    }
+    .imagens > .col > h4{
+        font-style: italic;
+        font-weight: normal;
+        font-size: 20px;
+        color: #3f3f3f;
+    }
+    form{
+        margin-top: 7%;
+    }
+    .form-group {
+        margin-bottom: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    
+    .form-group input, .form-group textarea {
+        width: 100%;
+        padding: 8px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+    }
+    
+    .form-group textarea {
+        resize: vertical;
+    }
+    
+    .form-group > label{
+        display: block;
+        margin-bottom: 5px;
+        font-size: 21px;
+        font-style: italic;
+        font-weight: normal;
+        color: #3f3f3f;
+    }
+    .txt3{
+        font-size: 20px;
+        font-style: italic;
+        font-weight: normal;
+        color: #3f3f3f;
+    
+    }
+    .txt3 > a {
+        color: black;
+        font-style: italic;
+        font-weight: normal;
+    }
+    .form-group > .btn{
+        background-color: #3f3f3f;
+        width: 150px;
+        padding: 10px;
+        margin: auto;
+        font-size: 20px;
+        color: aliceblue;
+    }
+    .termos{
+        display: grid;
+        justify-content: center;
+    }
+    .termos > label{
+        font-size: 15px;
+        font-weight: bold;
+    }
+}
+  /* Estilos para dispositivos móveis (smartphones) */
+@media (max-width: 767px) {
+    /* Coloque os estilos para dispositivos móveis aqui */
+    body, html, img {
+        padding: 0;
+        max-width: 100%;
+        height: auto;
+       }
+       
+       /* Fit image in the container */
+       img {
+        width: 100%;
+        height: auto;
+       }
+       .txtimage{
+        position: absolute;
+        top: 3%;
+        left: 2%;
+        padding: 10px;
+       }
+       
+       /* Adjust the container's height */
+       .painel {
+        position: relative;
+        width: 100%;
+        display: inline-block;
+        align-items: center;
+        justify-content: center;
+       }
+       
+       /* Additional rules for limiting the image's height */
+       .painel > img {
+        position: static;
+        max-height: 930px;
+       }
+       .txtimage > h1{
+        font-size: 33px;
+        font-weight: lighter;
+       }
+       .txtimage > h2{
+        font-size: 15px;
+        text-transform: uppercase;
+        font-family: tahoma;
+        font-weight: bold;
+        line-height: 1.1;
+       }
+       .txtimage > h3{
+        font-size: 6px;
+        line-height: 1.1;
+        letter-spacing: 2.5px;
+        font-style: italic;
+        font-weight: normal;
+     
+       
+       }
+       .painel > p {
+        width: auto;
+        position: absolute;
+        bottom: 0;
+        left: 2%;
+        top: 90%;
+        padding: 5px;
+        font-size: 5px;
+    
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+       }
+       .produtos{
+        background-color:  #dcd0d2;
+        padding: 4%;
+     
+       }
+       .txt{
+        font-size: 10px;
+        color:  #3f3f3f;
+        font-style: italic;
+        font-weight: normal;
+        }
+    .txt2{
+        font-size: 10px;
+        font-style: italic;
+        font-weight: normal;
+        color: #3f3f3f;
+    }
+    .imagens > .col {
+        display: grid;
+        margin: 20px;
+    }
+    .imagens img{
+        display: grid;
+        margin: auto;
+        margin-top: 10%;
+         width: 50%;
+    }
+    .imagens > .col > h3{
+        font-size: 15px;
+        font-style: italic;
+        font-weight: normal;
+        color: #3f3f3f;
+    }
+    .imagens > .col > h4{
+        font-style: italic;
+        font-weight: normal;
+        font-size: 10px;
+        color: #3f3f3f;
+    }
+    form{
+        margin-top: 7%;
+    }
+    .form-group {
+        margin-bottom: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    
+    .form-group input, .form-group textarea {
+        width: 100%;
+        padding: 8px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+    }
+    
+    .form-group textarea {
+        resize: vertical;
+    }
+    
+    .form-group > label{
+        display: block;
+        margin-bottom: 5px;
+        font-size: 21px;
+        font-style: italic;
+        font-weight: normal;
+        color: #3f3f3f;
+    }
+    .txt3{
+        font-size: 12px;
+        font-style: italic;
+        font-weight: normal;
+        color: #3f3f3f;
+    
+    }
+    .txt3 > a {
+        color: black;
+        font-style: italic;
+        font-weight: normal;
+    }
+    .form-group > .btn{
+        background-color: #3f3f3f;
+        width: 150px;
+        padding: 10px;
+        margin: auto;
+        font-size: 20px;
+        color: aliceblue;
+    }
+    .termos{
+        display: grid;
+        justify-content: center;
+    }
+    .termos > label{
+        font-size: 15px;
+        font-weight: bold;
+    }
+  }
